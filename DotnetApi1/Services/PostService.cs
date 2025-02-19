@@ -11,14 +11,14 @@ namespace DotnetApi1.Services
         {
             AllPosts.Add(post);
         }
-        public Post GetPost(int id)
+        public Task<Post?> GetPost(int id)
         {
             Post thePost = AllPosts.FirstOrDefault(x => x.Id == id);
-            return thePost;
+            return Task.FromResult(thePost);
         }
-        public List<Post> GetAllPosts()
+        public Task<List<Post>> GetAllPosts()
         {
-            return AllPosts;
+            return Task.FromResult(AllPosts);
         }
     }
 }

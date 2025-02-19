@@ -16,17 +16,17 @@ namespace DotnetApi1.Controllers
         }
         [HttpGet]
         [Route("GetAllPosts")]
-        public ActionResult GetPost()
+        public async Task<ActionResult> GetPost()
         {
-            //_postService.GetAllPosts();
-            return Ok(_postService.GetAllPosts());
+            var post = await _postService.GetAllPosts();
+            return Ok(post);
         }
         
         
         [HttpGet]
         [Route("GetPostById/{id}")]
-        public ActionResult GetPostById(int id) {
-            Post post = _postService.GetPost(id);
+        public async Task<ActionResult<Post>> GetPostById(int id) {
+            Post post = await _postService.GetPost(id);
             if (post == null)
             {
                 return NotFound();

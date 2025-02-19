@@ -34,3 +34,4 @@ C:\Users\Presley\Documents\DotnetProjects\Learning\DotnetApi1\obj\Debug\net8.0\D
 C:\Users\Presley\Documents\DotnetProjects\Learning\DotnetApi1\obj\Debug\net8.0\DotnetApi1.genruntimeconfig.cache
 C:\Users\Presley\Documents\DotnetProjects\Learning\DotnetApi1\obj\Debug\net8.0\ref\DotnetApi1.dll
 C:\Users\Presley\Documents\DotnetProjects\Learning\DotnetApi1\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\Presley\Documents\DotnetProjects\Learning\DotnetApi1\obj\Debug\net8.0\DotnetApi1.sourcelink.json
