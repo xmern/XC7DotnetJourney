@@ -17,6 +17,16 @@
   },
   {
     "ContainingType": "DotnetApi1.Controllers.PostsController",
+    "Method": "GetDatabaseConfigurationWithBind",
+    "RelativePath": "api/Posts/database-configuration-with-bind",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DotnetApi1.Controllers.PostsController",
     "Method": "GetPost",
     "RelativePath": "api/Posts/GetAllPosts",
     "HttpMethod": "GET",

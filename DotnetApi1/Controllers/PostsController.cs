@@ -1,7 +1,9 @@
-﻿using DotnetApi1.Models;
+﻿using DotnetApi1.ConfigurationClasses;
+using DotnetApi1.Models;
 using DotnetApi1.Services;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Configuration;
 using Microsoft.VisualBasic;
 
 namespace DotnetApi1.Controllers
@@ -51,6 +53,17 @@ namespace DotnetApi1.Controllers
         {
             var myKey = _configs["Tutor"];
             return Ok(myKey);
+        }
+        [HttpGet]
+        [Route("database-configuration-with-bind")]
+        public ActionResult GetDatabaseConfigurationWithBind()
+        {
+            var databaseOption = new DatabaseOption();
+            // The `SectionName` is defined in the `DatabaseOption` class, which shows the section name in the `appsettings.json` file.
+            _configs.GetSection(DatabaseOption.SectionName).Bind(databaseOption);
+            // You can also use the code below to achieve the same result
+            // configuration.Bind(DatabaseOption.SectionName, databaseOption);
+            return Ok(new { databaseOption.Type, databaseOption.ConnectionString });
         }
 
 
