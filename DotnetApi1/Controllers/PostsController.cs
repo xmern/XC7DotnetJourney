@@ -11,8 +11,10 @@ namespace DotnetApi1.Controllers
     public class PostsController : ControllerBase
     {
         private readonly PostService _postService;
-        public PostsController() { 
+        private IConfiguration _configs;
+        public PostsController(IConfiguration configuration) { 
             _postService = new PostService();
+            _configs = configuration;
         }
         [HttpGet]
         [Route("GetAllPosts")]
@@ -42,6 +44,13 @@ namespace DotnetApi1.Controllers
         {
             _postService.CreatePost(post);
             return CreatedAtAction(nameof(GetPost), new {id = post.Id}, post);
+        }
+        [HttpGet]
+        [Route("my-key")]
+        public ActionResult GetMyKey()
+        {
+            var myKey = _configs["Tutor"];
+            return Ok(myKey);
         }
 
 

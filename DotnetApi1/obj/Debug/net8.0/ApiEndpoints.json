@@ -52,6 +52,16 @@
     ]
   },
   {
+    "ContainingType": "DotnetApi1.Controllers.PostsController",
+    "Method": "GetMyKey",
+    "RelativePath": "api/Posts/my-key",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "DotnetApi1.Controllers.WeatherForecastController",
     "Method": "Get",
     "RelativePath": "cat",

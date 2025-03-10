@@ -88,6 +88,18 @@
         }
       }
     },
+    "/api/Posts/my-key": {
+      "get": {
+        "tags": [
+          "Posts"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/cat": {
       "get": {
         "tags": [
