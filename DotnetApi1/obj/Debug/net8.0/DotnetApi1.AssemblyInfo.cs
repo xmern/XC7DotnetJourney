@@ -11,10 +11,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("0e5d97c3-bda9-4679-be0e-2ac62dcfc316")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("DotnetApi1")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5b5b745c7537337b57474e07e0ad48c24db407d0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+79fdc50ae5f428b55fcc14c3a69d0ec3ccc634c3")]
 [assembly: System.Reflection.AssemblyProductAttribute("DotnetApi1")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DotnetApi1")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
