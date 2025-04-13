@@ -62,8 +62,7 @@
               "RelativeToolTip": "Models\\Shirt.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T01:24:06.453Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-09T01:24:06.453Z"
             },
             {
               "$type": "Document",
@@ -75,8 +74,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-05T01:22:16.802Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-05T01:22:16.802Z"
             },
             {
               "$type": "Document",
@@ -88,8 +86,7 @@
               "RelativeToolTip": "Models\\Invoice.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T02:13:32.492Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-28T02:13:32.492Z"
             },
             {
               "$type": "Document",
@@ -114,8 +111,7 @@
               "RelativeToolTip": "DbContexts\\ShirtDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T01:43:55.385Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-09T01:43:55.385Z"
             },
             {
               "$type": "Document",
@@ -127,8 +123,7 @@
               "RelativeToolTip": "Services\\PostService.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAMwBUAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-12T02:24:02.375Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-12T02:24:02.375Z"
             },
             {
               "$type": "Document",
@@ -140,8 +135,7 @@
               "RelativeToolTip": "ConfigurationClasses\\DatabaseOption.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-10T08:17:57.46Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-10T08:17:57.46Z"
             },
             {
               "$type": "Document",
@@ -153,8 +147,7 @@
               "RelativeToolTip": "Models\\Post.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-29T01:58:18.1Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-29T01:58:18.1Z"
             },
             {
               "$type": "Document",
@@ -166,8 +159,7 @@
               "RelativeToolTip": "Controllers\\PostsController.cs",
               "ViewState": "AgIAACgAAAAAAAAAAAAUwDkAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-04T08:32:06.02Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-04T08:32:06.02Z"
             },
             {
               "$type": "Document",
@@ -179,8 +171,7 @@
               "RelativeToolTip": "Controllers\\WeatherForecastController.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAAYwBIAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-29T01:28:57.029Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-29T01:28:57.029Z"
             }
           ]
         }
