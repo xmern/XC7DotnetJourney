@@ -212,6 +212,37 @@
         }
       }
     },
+    "/api/Shirts/modify-shirt-colour": {
+      "put": {
+        "tags": [
+          "Shirts"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ChangeShirtColourDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ChangeShirtColourDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ChangeShirtColourDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/cat": {
       "get": {
         "tags": [
@@ -254,6 +285,23 @@
   },
   "components": {
     "schemas": {
+      "ChangeShirtColourDto": {
+        "required": [
+          "colour"
+        ],
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "colour": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
       "Post": {
         "type": "object",
         "properties": {

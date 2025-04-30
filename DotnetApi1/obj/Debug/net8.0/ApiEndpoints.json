@@ -124,6 +124,22 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "DotnetApi1.Controllers.ShirtsController",
+    "Method": "UpdateShirtColour",
+    "RelativePath": "api/Shirts/modify-shirt-colour",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "DotnetApi1.Models.DTOs.ChangeShirtColourDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "DotnetApi1.Controllers.WeatherForecastController",
     "Method": "Get",
     "RelativePath": "cat",

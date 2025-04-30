@@ -1,5 +1,6 @@
 ﻿using DotnetApi1.DbContexts;
 using DotnetApi1.Models;
+using DotnetApi1.Models.DTOs;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
@@ -44,11 +45,23 @@ namespace DotnetApi1.Controllers
             }
             return NotFound();
         }
-        //[Route("modify-shirt-colour")]
-        //[HttpPut]
-        //public IActionResult UpdateShirtColour()
-        //{
-
-        //}
+        [Route("modify-shirt-colour")]
+        [HttpPut]
+        public async Task<IActionResult> UpdateShirtColour([FromBody] ChangeShirtColourDto data)
+        {
+            var shirt = await  _context.Shirts.FindAsync(data.Id);
+            if (shirt != null)
+            {
+                shirt.Colour = data.Colour;
+                await _context.SaveChangesAsync();
+                return NoContent();
+            }
+            
+            if (2 == 2)
+            {
+                return NotFound();
+            }
+            
+        }
     }
 }

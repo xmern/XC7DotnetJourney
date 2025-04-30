@@ -82,8 +82,7 @@
               "RelativeToolTip": "Models\\DTOs\\ChangeShirtColourDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T00:45:57.348Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-30T00:45:57.348Z"
             },
             {
               "$type": "Document",
@@ -93,7 +92,7 @@
               "RelativeDocumentMoniker": "Controllers\\ShirtsController.cs",
               "ToolTip": "C:\\Users\\Presley\\Documents\\DotnetProjects\\Learning\\DotnetApi1\\Controllers\\ShirtsController.cs",
               "RelativeToolTip": "Controllers\\ShirtsController.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAQwCgAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAC8AAAAAAAAAAAASwDoAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-16T01:13:49.521Z",
               "EditorCaption": ""
@@ -108,8 +107,7 @@
               "RelativeToolTip": "Controllers\\PostsController.cs",
               "ViewState": "AgIAABUAAAAAAAAAAADgvyAAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-04T08:32:06.02Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-04T08:32:06.02Z"
             },
             {
               "$type": "Document",
@@ -121,8 +119,7 @@
               "RelativeToolTip": "Services\\PostService.cs",
               "ViewState": "AgIAAAEAAAAAAAAAAADgvwsAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-12T02:24:02.375Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-12T02:24:02.375Z"
             },
             {
               "$type": "Document",
@@ -134,8 +131,7 @@
               "RelativeToolTip": "Models\\Post.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-29T01:58:18.1Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-29T01:58:18.1Z"
             },
             {
               "$type": "Document",
@@ -171,8 +167,7 @@
               "RelativeToolTip": "Models\\Shirt.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T01:24:06.453Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-09T01:24:06.453Z"
             },
             {
               "$type": "Document",
