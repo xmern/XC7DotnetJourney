@@ -30,7 +30,7 @@ namespace DotnetApi1.Controllers
         [HttpGet]
         [Route("GetPostById/{id}")]
         public async Task<ActionResult<Post>> GetPostById(int id) {
-            Post post = await _postService.GetPost(id);
+            Post? post = await _postService.GetPost(id);
             if (post == null)
             {
                 return NotFound();

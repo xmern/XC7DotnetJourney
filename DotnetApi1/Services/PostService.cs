@@ -13,7 +13,7 @@ namespace DotnetApi1.Services
         }
         public Task<Post?> GetPost(int id)
         {
-            Post thePost = AllPosts.FirstOrDefault(x => x.Id == id);
+            Post? thePost = AllPosts.FirstOrDefault(x => x.Id == id);
             return Task.FromResult(thePost);
         }
         public Task<List<Post>> GetAllPosts()

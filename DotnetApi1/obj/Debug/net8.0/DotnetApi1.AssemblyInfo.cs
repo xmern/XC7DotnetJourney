@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DotnetApi1")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d1bc8e9e68b47f3684d7fbe52aab0e0d494c8759")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2fc5693ca38d7df2714cb52f903852f1fa6815a1")]
 [assembly: System.Reflection.AssemblyProductAttribute("DotnetApi1")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DotnetApi1")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

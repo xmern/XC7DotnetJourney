@@ -72,6 +72,58 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "DotnetApi1.Controllers.ShirtsController",
+    "Method": "CreateShirt",
+    "RelativePath": "api/Shirts/create-shirt",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "shirtObj",
+        "Type": "DotnetApi1.Models.Shirt",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DotnetApi1.Controllers.ShirtsController",
+    "Method": "GetAllShirts",
+    "RelativePath": "api/Shirts/get-all-shirts",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[DotnetApi1.Models.Shirt, DotnetApi1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DotnetApi1.Controllers.ShirtsController",
+    "Method": "UpdateShirt",
+    "RelativePath": "api/Shirts/modify-shirt",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "shirtObj",
+        "Type": "DotnetApi1.Models.Shirt",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "DotnetApi1.Controllers.WeatherForecastController",
     "Method": "Get",
     "RelativePath": "cat",
